@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21880" started-at="2020-08-12T07:59:29 IST" finished-at="2020-08-12T07:59:50 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21880" started-at="2020-08-12T07:59:29 IST" finished-at="2020-08-12T07:59:50 IST">
+      <class name="screenshots.TestScreenshots">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:screenshots.TestScreenshots@2286778]" name="setUp" is-config="true" duration-ms="19730" started-at="2020-08-12T07:59:29 IST" finished-at="2020-08-12T07:59:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:screenshots.TestScreenshots@2286778]" name="test1" duration-ms="507" started-at="2020-08-12T07:59:48 IST" description="full page screenshot using selenium" finished-at="2020-08-12T07:59:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:screenshots.TestScreenshots@2286778]" name="test2" duration-ms="555" started-at="2020-08-12T07:59:49 IST" description="page section screenshot using selenium" finished-at="2020-08-12T07:59:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:screenshots.TestScreenshots@2286778]" name="test3" duration-ms="630" started-at="2020-08-12T07:59:49 IST" description="highlight webelements" finished-at="2020-08-12T07:59:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:screenshots.TestScreenshots@2286778]" name="tearDown" is-config="true" duration-ms="278" started-at="2020-08-12T07:59:50 IST" finished-at="2020-08-12T07:59:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- screenshots.TestScreenshots -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
