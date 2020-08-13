@@ -39,6 +39,7 @@ public class TestScreenshots {
 	}
 	
 	// I have removed unnecessary comment done by 2
+	//User 2- I need this line again.
 
 	@Test(description = "full page screenshot using selenium")
 	public void test1() throws IOException {
