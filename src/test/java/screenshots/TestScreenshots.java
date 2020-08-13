@@ -38,7 +38,7 @@ public class TestScreenshots {
 		driver.close();
 	}
 	
-	// This is change made by user 2
+	// I have removed unnecessary comment done by 2
 
 	@Test(description = "full page screenshot using selenium")
 	public void test1() throws IOException {
