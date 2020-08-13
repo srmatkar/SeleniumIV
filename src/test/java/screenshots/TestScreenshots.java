@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -73,6 +74,12 @@ public class TestScreenshots {
 		File trgScrshot = new File("Highlighted.png");
 		FileUtils.copyFile(srcScreenshot, trgScrshot);
 
+	}
+	
+	@Test(description = "fake test")
+	public void test4(){
+		Assert.assertTrue(true);
+		
 	}
 
 	void highLightWebElement(WebDriver driver, WebElement we) {
