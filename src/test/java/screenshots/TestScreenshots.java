@@ -81,6 +81,12 @@ public class TestScreenshots {
 		Assert.assertTrue(true);
 		
 	}
+	
+	@Test(description="fake test 2")
+	public void test5() {
+		Assert.assertTrue(true);
+	}
+	
 
 	void highLightWebElement(WebDriver driver, WebElement we) {
 
