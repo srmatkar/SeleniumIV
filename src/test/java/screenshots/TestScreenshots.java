@@ -37,6 +37,8 @@ public class TestScreenshots {
 	public void tearDown() {
 		driver.close();
 	}
+	
+	// This is change made by user 2
 
 	@Test(description = "full page screenshot using selenium")
 	public void test1() throws IOException {
